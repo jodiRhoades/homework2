@@ -69,6 +69,27 @@
     height: auto;    
 }
 
+#contact {
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: 2px solid;
+  border-bottom-color: #777777;
+  font-size: 25px;
+  font-weight:bold;
+  }
+
+  input {
+      width:100%;
+  }
+  
+  textarea {
+      width:100%;
+  }
+   
+  #button {
+      background-color: #4aaaa5;
+  }    
+
 .footer {
   background-color: #666666;    
   text-align: center;
@@ -96,8 +117,10 @@ html, body {
       width: 100%;      
       font-size: 25px; 
       font-weight: bold;       
-      padding: 35px;
-      
+      padding: 35px;      
+    }
+  #contact {
+    width: 100%;
     }
 
 
