@@ -90,14 +90,41 @@
       background-color: #4aaaa5;
   }    
 
+  #portfolio {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid;
+    border-bottom-color: #777777;
+    font-size: 25px;
+    font-weight: bold;
+    }
+
+    .galleryPic{
+        width:300px;
+        height: 250px;
+        float:left;
+        margin: 45px;        
+        }
+        
+        .overlay {
+            position: absolute;
+            bottom: 5px;
+            color: white;
+            background: #4aaaa5;
+            /* width: ; */
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 5px 0px; 
+            margin-bottom: 55px;          
+        }
+    
+
 .footer {
   background-color: #666666;    
   text-align: center;
   width: 100%;
   color: white;    
   border-top: 8px solid #4aaaa5;
-  /* padding:25; */
-  /* height:45px; */
   margin-top: 25px;
   }
 
@@ -122,8 +149,10 @@ html, body {
   #contact {
     width: 100%;
     }
+  #portfolio{
+    width: 100%
+  }
 
-
-
+ 
 
 }
