@@ -25,6 +25,7 @@
   float: left;   
   margin-left: 25%; 
 }
+
 #navbarNav {
   margin-left: 40%;
 }
@@ -99,26 +100,31 @@
     font-weight: bold;
     }
 
-    .galleryPic{
-        width:300px;
-        height: 250px;
+    .imageholder {
+        width:300px;        
         float:left;
-        margin: 45px;        
+        margin: 45px; 
+        position: relative;       
+        }
+
+        .imageholder img{
+          width: 300px;
+          
         }
         
         .overlay {
             position: absolute;
             bottom: 5px;
             color: white;
-            background: #4aaaa5;
-            /* width: ; */
+            background: #4aaaa5;            
             text-align: center;
             font-family: Georgia, 'Times New Roman', Times, serif;
             padding: 5px 0px; 
-            margin-bottom: 55px;          
+            margin-bottom: 55px;   
+            left: 0;
+            right: 0;       
         }
     
-
 .footer {
   background-color: #666666;    
   text-align: center;
@@ -134,25 +140,18 @@ html, body {
   background-image: url(../images/brickwall.png);
 }  
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   #headshot {
     width: 550px;    
     margin: 0 auto; 
     }
 
     .navbar-light .navbar-brand {     
-      width: 100%;      
-      font-size: 25px; 
+      /* width: 100%;       */
+      /* font-size: 25px; 
       font-weight: bold;       
       padding: 35px;      
     }
-  #contact {
-    width: 100%;
-    }
-  #portfolio{
-    width: 100%
-  }
-
- 
-
-}
+  */
+  
+} */
